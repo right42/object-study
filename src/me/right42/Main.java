@@ -20,7 +20,14 @@ public class Main {
                 )
         );
 
-        Screening screening = new Screening(movie, 2, LocalDateTime.now());
-        System.out.println(movie.calculateMovieFee(screening));
+        Movie movie2 = new Movie(
+                "스타워즈",
+                Duration.ofMinutes(120),
+                Money.wons(10000),
+                new NoneDiscountPolicy()
+        );
+
+        movie.getFee();
+        movie2.getFee();
     }
 }
