@@ -2,7 +2,7 @@ package me.right42.example2;
 
 public class PercentDiscountPolicy extends DiscountPolicy{
 
-    private double percent;
+    private final double percent;
 
     public PercentDiscountPolicy(double percent, DisCountCondition... conditions) {
         super(conditions);
