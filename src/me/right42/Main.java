@@ -27,6 +27,7 @@ public class Main {
                 new NoneDiscountPolicy()
         );
 
+
         movie.getFee();
         movie2.getFee();
 
