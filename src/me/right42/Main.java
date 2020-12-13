@@ -28,6 +28,7 @@ public class Main {
         );
 
 
+
         movie.getFee();
         movie2.getFee();
 
