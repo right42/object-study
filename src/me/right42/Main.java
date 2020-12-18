@@ -26,6 +26,7 @@ public class Main {
                 Money.wons(10000),
                 new NoneDiscountPolicy()
         );
+
         movie.getFee();
         movie2.getFee();
 
